@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Open+Sans:ital@1&family=Poppins:ital@1&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    background-image: url('images/donation3.jpg');
+    background-size: cover;
+    height: 660px;
+}
+
+.heading__div {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading__h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.heading__p {
+    text-align: center;
+    color: white;
+
+
+}
+
+.button {
+    padding: 16px, 12px, 16px, 12px;
+    Width: 160px;
+    Height: 56px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+    Gap: 8px;
+    border: none;
+    font-size: 16px;
+
+}
+
+/* donate part */
+.donate__h1 {
+    text-align: center;
+}
+
+.donate__p {
+    text-align: center;
+    color: #707070;
+
+
+}
+
+
+/* box */
+.box_parents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 123px;
+    width: 135px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+.box:hover {
+    color: #FF5959;
+    border: 2px solid #FF5959;
+
+
+
+}
+
+.donate__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+
+.input__donate {
+    height: 0px;
+    width: 765px;
+    height: 30px;
+    left: 338px;
+    top: 1199.5px;
+    border-radius: 0px;
+    border-bottom: 1px solid #1890ff;
+    border-top: none;
+    border-right: 0;
+    border-left: 0;
+    margin-bottom: 10px;
+    outline: 0;
+    font-size: x-large;
+}
+
+.input__donate:focus {
+    border-color: green;
+}
+
+.input__donate::-webkit-input-placeholder {
+    text-align: center;
+    font-size: x-large;
+}
+
+.plant__boxParents {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plant__box {
+    height: 352px;
+    width: 360px;
+    left: 157px;
+    top: 1595.5px;
+    border-radius: 5px;
+    padding: 20px;
+    background: #4F9DA6;
+    margin: 10px 4px;
+
+
+
+}
+
+
+.box__img {
+    height: 49px;
+    width: 58px;
+    margin-top: 25px;
+    border-radius: 0px;
+
+}
+
+#plantBox2 {
+    background-color: #FF5959;
+}
+
+#plantBox3 {
+    background-color: rgb(196, 47, 151);
+}
+
+
+.dependDonation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.donation__ma {
+    margin: 20px 30px;
+}
+
+.donation__img {
+    width: 100%;
+    height: 550px;
+
+}
+
+.dpendDonation__h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#secondDontion {
+    flex-direction: row-reverse;
+}
+
+.subscibe__area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.sub__input {
+    padding: 20px 60px;
+    border-radius: 7px;
+    border: none;
+
+}
+
+.footer {
+    background-color: #0B0D17;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer__text {
+    color: #FF5959;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer__p {
+    color: white;
+    margin: 0;
+    font-size: 10px;
+}
